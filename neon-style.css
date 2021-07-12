@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Blender Pro';
+    src:url('BlenderPro-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
 :root {
     --clr-neon: hsl(0 100% 50%);
     --clr-bg: hsl(0 0% 5%);
