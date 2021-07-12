@@ -1,13 +1,11 @@
 @font-face {
-    font-family: 'Blender Pro Book';
-    src: url('BlenderPro-Book.eot');
-    src: local('Blender Pro Book'), local('BlenderPro-Book'),
-        url('BlenderPro-Book.eot?#iefix') format('embedded-opentype'),
-        url('BlenderPro-Book.woff2') format('woff2'),
-        url('BlenderPro-Book.woff') format('woff'),
-        url('BlenderPro-Book.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+ font-family:Blender Pro;
+ src:url(/static/fonts/BlenderPro-Book.woff2) format("woff2"),
+ url(/static/fonts/BlenderPro-Book.woff) format("woff");
+ font-weight:400;
+ font-style:normal;
+ font-display:swap
+}
 }
 
 :root {
