@@ -1,7 +1,12 @@
 @font-face {
-    font-family: 'Blender Pro';
-    src:url('BlenderPro-Medium.woff2') format('woff2');
-    font-weight: 500;
+    font-family: 'Blender Pro Book';
+    src: url('BlenderPro-Book.eot');
+    src: local('Blender Pro Book'), local('BlenderPro-Book'),
+        url('BlenderPro-Book.eot?#iefix') format('embedded-opentype'),
+        url('BlenderPro-Book.woff2') format('woff2'),
+        url('BlenderPro-Book.woff') format('woff'),
+        url('BlenderPro-Book.ttf') format('truetype');
+    font-weight: normal;
     font-style: normal;
 }
 
@@ -21,7 +26,7 @@
     display: grid;
     place-items: center;
     background: radial-gradient(#3a3a3a 0%,#252525 50%);
-    font-family: "Blender Pro";
+    font-family: "Blender Pro Book";
     font-weight: 500;
     font-style: normal;
     color: var(--clr-neon);
