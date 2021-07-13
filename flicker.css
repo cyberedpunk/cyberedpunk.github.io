@@ -1,4 +1,10 @@
+@font-face {
+    font-family: "BlenderPro";
+    src: url("blenderpro-book-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
 
+}
  :root {
     --clr-neon: hsl(0 100% 50%);
     --clr-bg: hsl(0 0% 5%);
@@ -26,7 +32,7 @@
 }
 .title{
     color:#fff;
-    font-family: 'Blender Pro';
+    font-family: 'BlenderPro';
     font-size: 6rem;
     font-weight: 700;
     font-style: normal;
@@ -59,7 +65,7 @@
 }
 .subtitle{
     color:#fff;
-    font-family: 'Blender Pro';
+    font-family: 'BlenderPro';
     font-size: 2rem;
     font-weight: 600;
     font-style: normal;
