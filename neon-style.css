@@ -3,9 +3,8 @@
  src:url(fonts/BlenderPro-Book);
  font-weight:500;
  font-style:normal;
- font-display:swap
 }
-}
+
 
 :root {
     --clr-neon: hsl(0 100% 50%);
