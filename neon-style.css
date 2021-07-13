@@ -1,8 +1,7 @@
 @font-face {
- font-family:Blender Pro;
- src:url(/static/fonts/BlenderPro-Book.woff2) format("woff2"),
- url(/static/fonts/BlenderPro-Book.woff) format("woff");
- font-weight:400;
+ font-family:"Blender Pro";
+ src:url(fonts/BlenderPro-Book);
+ font-weight:500;
  font-style:normal;
  font-display:swap
 }
@@ -24,7 +23,7 @@
     display: grid;
     place-items: center;
     background: radial-gradient(#3a3a3a 0%,#252525 50%);
-    font-family: "Blender Pro Book";
+    font-family: "Blender Pro";
     font-weight: 500;
     font-style: normal;
     color: var(--clr-neon);
