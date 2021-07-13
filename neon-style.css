@@ -1,10 +1,10 @@
 @font-face {
- font-family:"Blender Pro";
- src:url(fonts/BlenderPro-Book);
- font-weight:500;
- font-style:normal;
-}
+    font-family: "BlenderPro";
+    src: url("blenderpro-book-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
 
+}
 
 :root {
     --clr-neon: hsl(0 100% 50%);
@@ -22,7 +22,7 @@
     display: grid;
     place-items: center;
     background: radial-gradient(#3a3a3a 0%,#252525 50%);
-    font-family: "Blender Pro";
+    font-family: "BlenderPro";
     font-weight: 500;
     font-style: normal;
     color: var(--clr-neon);
